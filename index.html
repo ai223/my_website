@@ -9,63 +9,74 @@
         media="all">
 
   <!-- Source: https://fonts.google.com/ -->
-  <!-- License: -->
+  <!-- License: Open Font License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
         rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Lato"
+        rel="stylesheet">
 
   <link rel="icon"
         type="image/png"
         href="images/logo.png">
-  <title>Aleksandr Itskovich, aspiring Developer</title>
+  <title class="name">Aleksandr Itskovich, aspiring Developer</title>
 </head>
 
 <body>
-  <!-- Image Source: http://www.simtec.co.uk/appnotes/AN0017/bookshelf-full.jpg -->
-  <!-- Image License: I need to ask the original source site for permission
-                      before publishing this image, but am using it here for now
-                      as a placeholder displaying what I want. I may end up
-                      just taking my own photograph in the end. -->
-  <!-- Image alt="books" src="http://www.simtec.co.uk/appnotes/AN0017/bookshelf-full.jpg"-->
-  <img alt="books" src="Images/books.jpg" HEIGHT="200" WIDTH = "1350"/>
-  <hr>
-  <h1>Aleksandr Itskovich</h1>
 
-  <!-- This will eventually be a horizontal menu, with nice font and color-->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="resume.html">Résumé</a></li>
-      <li><a href="portfolio.html">My Portfolio</a></li>
-      <li><a href="blog.html">Code Musings</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="banner">
+    <!-- Image Source: http://www.simtec.co.uk/appnotes/AN0017/bookshelf-full.jpg -->
+    <!-- Image alt="books" src="http://www.simtec.co.uk/appnotes/AN0017/bookshelf-full.jpg"-->
+    <img alt="books" src="Images/books.jpg" class="banner"/>
+  </div>
 
-<h2> Welcome to my webpage! </h2>
+  <div class="title_header">
+    <h1 class="name">Aleks Itskovich</h1>
+  </div>
 
-<p> I'm currently an employee at Cornell University. I work at Wilson Lab, which
-houses Cornell's synchrotron, as one of the people operating it on a day-to-day
-basis. That means that I am responsible for manning the <a href="ctrl_room.html"
-target="_blank"> control-room</a> and making sure that the particle beams we
-generate are running smoothly. Recently I've also begun taking programming courses
-at Cornell (courtesy of the university's generous employee benefits) and moved
-into doing some software development at work (mostly in Java). The change has
-been fantastic as I continue to discover how much I enjoy programming and computer
-science! </p>
+  <div class="menu">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="resume.html" >Résumé</a></li>
+        <li><a href="portfolio.html">My Portfolio</a></li>
+        <li><a href="blog.html">Code Musings</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<p> Feel free to check out my <a href="resume.html">résumé</a> or my (so-far-non
--existant &#x2639;) <a href="portfolio.html">portfolio</a>. Check out the <a href=
-"blog.html">Code Musings</a> page, where I'll keep a short journal recording my
-experience of learning to create websites in CS1300. If you want to learn a bit
-more about me, see the <a href="about.html">About Me</a> page. If you have some
-interesting project, information or just want to get in touch, please go to <a
-href="contact.html">Contact</a>.
-</p>
+  <div>
+    <hr class="sep">
+  </div>
 
+  <div class="main_content">
+    <h2> Welcome to my webpage! </h2>
 
-<footer>&#9178; | Ithaca, NY</footer>
+    <p> I'm currently an employee at Cornell University. I work at Wilson Lab, which
+    houses Cornell's synchrotron, as one of the people operating it on a day-to-day
+    basis. That means that I am responsible for manning the <a href="ctrl_room.html"
+     target="_blank"> control-room</a> and making sure that the particle beams we
+    generate are running smoothly. Recently I've also begun taking programming courses
+    at Cornell (courtesy of the university's generous employee benefits) and moved
+    into doing some software development at work (mostly in Java). The change has
+    been fantastic as I continue to discover how much I enjoy programming and computer
+    science! </p>
+
+    <p> Feel free to check out my <a href="resume.html">résumé</a> or my (so-far-non
+    -existant &#x2639;) <a href="portfolio.html">portfolio</a>. Check out the <a href=
+    "blog.html">Code Musings</a> page, where I'll keep a short journal recording my
+    experience of learning to create websites in CS1300. If you want to learn a bit
+    more about me, see the <a href="about.html">About Me</a> page. If you have some
+    interesting project, information or just want to get in touch, please go to <a
+    href="contact.html">Contact</a>.
+    </p>
+  </div>
+
+  <div>
+    <!-- "&#9178&" produces a "ground" symbol -->
+    <footer class="footer">&#9178; | Ithaca, NY</footer>
+  </div>s
+
 </body>
-
 </html>

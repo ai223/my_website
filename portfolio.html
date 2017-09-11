@@ -8,64 +8,98 @@
           href="all.css"
           media="all">
 
+    <!-- Source: https://fonts.google.com/ -->
+    <!-- License: Open Font License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet">
+
     <link rel="icon"
           type="image/png"
           href="images/logo.png">
     <title>Portfolio</title>
   </head>
+
   <body>
+    <div class="banner">
+      <!-- Image Source: http://unisci24.com/data_images/wlls/55/360715-white.jpg -->
+      <!-- Image alt="white_banner" src="http://unisci24.com/data_images/wlls/55/360715-white.jpg"-->
+      <img alt="white_banner" src="Images/white_banner.jpg" class="banner"/>
+    </div>
 
-    <h1>Aleksandr Itskovich</h1>
+    <div class="title_header">
+      <h1 class="name">My Portfolio</h1>
+    </div>
 
-    <nav>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Résumé</a></li>
+          <li><a href="portfolio.html" class="current">My Portfolio</a></li>
+          <li><a href="blog.html">Code Musings</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sep">
+      <hr>
+    </div>
+
+    <div class="main_content">
+      <h2>My Portfolio</h2>
+
+      <p>There's not much to see here yet... I've only begun learning to code this
+         January, never having written a line of code in my life before. But hopefully
+         I'll have more content here by the end of the Semester!</p>
+
+      <h3>Things I'm working on...</h3>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Résumé</a></li>
-        <li><a href="portfolio.html">My Portfolio</a></li>
-        <li><a href="blog.html">Code Musings</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li>Creating a Java GUI at work that displays the status of various magnets,
+        power-supplies and other<br>components in the particle accelerator. If
+        something stops working or doesn't turn on, this program<br>could help
+        determine what the problem is. It also records the trip history for each
+        component, giving<br>researchers a concrete record to look back on and
+        analyze.</li>
+        <li>Building my own professional website, and also my first-ever website.
+        Happening as I type...</li>
+        <li>Learning and practicing with JavaFX, Github and other things that catch
+        my scattered attention...</li>
       </ul>
-    </nav>
-    <hr>
 
-    <h2>My Portfolio</h2>
+      <h3>Things I've done...</h3>
+      <blockquote>Not a lot to post here just yet... </blockquote>
 
-    <p>There's not much to see here yet... I've only begun learning to code this
-       January, never having written a line of code in my life before. But hopefully
-       I'll have more content here by the end of the Semester!</p>
+      <h3>Things I'd like to do...</h3>
 
-    <h3>Things I'm working on...</h3>
-    <ul>
-      <li>Creating a Java GUI at work that displays the status of various magnets,
-      power-supplies and other<br>components in the particle accelerator. If
-      something stops working or doesn't turn on, this program<br>could help
-      determine what the problem is. It also records the trip history for each
-      component, giving<br>researchers a concrete record to look back on and
-      analyze.</li>
-      <li>Building my own professional website, and also my first-ever website.
-      Happening as I type...</li>
-      <li>Learning and practicing with JavaFX, Github and other things that catch
-      my scattered attention...</li>
-    </ul>
+      <ul>
+        <li>Create a calculator app for Vetarinary Medicine, letting the user
+        quickly perform routine calculations<br>(like figuring out liquid dilutions).
+        My fiancee, who is in her last year of vet-school at Cornell, asked<br>me to
+        do it :) </li>
+        <li>Create a simple game in Java, like snake. A) Becuase I loved to play
+        Snake on my old Nokia phone, and<br>B) becuase I think I'll learn a lot of
+        good coding techniques in the process.</li>
+      </ul>
+    </div>
 
-    <h3>Things I've done...</h3>
-    <blockquote>Not a lot to post here just yet... </blockquote>
-
-    <h3>Things I'd like to do...</h3>
-
-    <ul>
-      <li>Create a calculator app for Vetarinary Medicine, letting the user
-      quickly perform routine calculations<br>(like figuring out liquid dilutions).
-      My fiancee, who is in her last year of vet-school at Cornell, asked<br>me to
-      do it :) </li>
-      <li>Create a simple game in Java, like snake. A) Becuase I loved to play
-      Snake on my old Nokia phone, and<br>B) becuase I think I'll learn a lot of
-      good coding techniques in the process.</li>
-    </ul>
-
-
-    <footer>&#9178; | Ithaca, NY</footer>
+    <footer class="footer">&#9178; | Ithaca, NY
+      <div class="menu_2">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="resume.html" >Résumé</a></li>
+            <li><a href="portfolio.html">My Portfolio</a></li>
+            <li><a href="blog.html">Code Musings</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 
 </html>
