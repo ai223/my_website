@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32.16mm"
+   height="32.16mm"
+   viewBox="0 0 32.16 32.16"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="ai_logo.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5978"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5976" />
+    </linearGradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient6138"
+       gradientUnits="userSpaceOnUse"
+       x="68.653168"
+       y="99.796021"
+       gradientTransform="translate(-68.035714,165.55357)">
+      <meshrow
+         id="meshrow6140">
+        <meshpatch
+           id="meshpatch6142">
+          <stop
+             path="c 10.0923,0  20.1847,0  30.277,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6144" />
+          <stop
+             path="c 0,10.0923  0,20.1847  0,30.277"
+             style="stop-color:#ff7f2a;stop-opacity:1"
+             id="stop6146" />
+          <stop
+             path="c -10.0923,0  -20.1847,0  -30.277,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6148" />
+          <stop
+             path="c 0,-10.0923  0,-20.1847  0,-30.277"
+             style="stop-color:#ff7f2a;stop-opacity:1"
+             id="stop6150" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6464"
+       x="-0.035999998"
+       width="1.072"
+       y="-0.035999998"
+       height="1.072">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.45"
+         id="feGaussianBlur6466" />
+    </filter>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient6490"
+       gradientUnits="userSpaceOnUse"
+       x="68.791664"
+       y="99.934517"
+       gradientTransform="translate(-68.035714,165.55357)">
+      <meshrow
+         id="meshrow6492">
+        <meshpatch
+           id="meshpatch6494">
+          <stop
+             path="c 10,0  20,0  30,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6496" />
+          <stop
+             path="c 0,10  0,20  0,30"
+             style="stop-color:#ff7f2a;stop-opacity:1"
+             id="stop6498" />
+          <stop
+             path="c -10,0  -20,0  -30,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6500" />
+          <stop
+             path="c 0,-10  0,-20  0,-30"
+             style="stop-color:#ff7f2a;stop-opacity:1"
+             id="stop6502" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-75.918101"
+     inkscape:cy="558.36762"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     borderlayer="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.3240501,-264.4081)">
+    <rect
+       id="rect3699"
+       width="30"
+       height="30"
+       x="0.75594985"
+       y="265.4881"
+       style="opacity:0.8;fill:url(#meshgradient6490);fill-opacity:1;fill-rule:nonzero;stroke:url(#meshgradient6138);stroke-width:0.27700001;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter6464)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.7610054px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#338000;fill-opacity:1;stroke:none;stroke-width:0.5690251"
+       x="6.500247"
+       y="277.33817"
+       id="text6128"
+       transform="scale(0.95884695,1.0429193)"><tspan
+         sodipodi:role="line"
+         id="tspan6126"
+         x="6.500247"
+         y="277.33817"
+         style="fill:#338000;fill-opacity:1;stroke-width:0.5690251">ai</tspan></text>
+  </g>
+</svg>
