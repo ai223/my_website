@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="../style/all.css"
+          media="all">
+
+    <!-- Source: https://fonts.google.com/ -->
+    <!-- License: Open Font License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet">
+
+    <link rel="icon"
+          type="image/png"
+          href="../images/logo.png">
+    <title>Portfolio</title>
+  </head>
+
+    <div class="title_header_2">
+      <h1 class="name">My Portfolio</h1>
+    </div>
+
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="resume.html">Résumé</a></li>
+          <li><a href="portfolio.html" class="current">My Portfolio</a></li>
+          <li><a href="blog.html">Code Musings</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sep">
+      <hr>
+    </div>
+
+    <div class="main_content_2">
+
+      <h3 class="portfolio_headers">Things I'm working on...</h3>
+      <ul>
+        <li>Writing a MATLAB script at work to handle error diagnostics for Beam
+          Position Monitors (BPMs), instruments that measure the position of the
+          particle beam's orbit as it travels around the ring. Sometimes these
+          detectors fail and require programattic debugging. </li>
+        <li>Collaborating with a friend from Cornell's Social Psychology department
+          on creating a website where users can upload images of their tongues (yes,
+          tongues) and recieve feedback about their tasting habits, food preferances
+          and even political persuasion. Utilizes a photo-analysis script from
+          <a href='http://www.tonguesim.thinkbiosolution.com/' target="_blank">TongueSim.</a></li>
+        <li>Learning and practicing with JavaFX, Github and other things that catch
+        my scattered attention...</li>
+      </ul>
+
+      <h3 class="portfolio_headers">Things I've done...</h3>
+
+      <div id="chains">
+        <h4 class='portfolio_subheaders'>Chains</h4>
+          <img alt='chains_gui' src='../images/chains_gui.png' id='chains1_gui'/>
+        <ul>
+          <li>Created a Java application that depicts real-time status for
+            different pieces of hardware inside the particle accelerator.
+            Specific instruments, such as high-voltage magnets,
+            have a variety of sensors that monitoring things like temperature,
+            water-flow and power. These safety elements collectively form a <span class='i'>
+            ready-chain</span>. Instruments won't work if its ready chain is tripped off.</li>
+          <li>Also records the trip history for individual chains. A valuable diagnostic tool. </li>
+          <li>Allows operators to reset ready-chains during active operation. Momentary
+            glitches often cause equipment deactivation. If there is no real problem,
+            the tripped instrument can be remotely reset and restarted, creating
+            minimal operational interferance.</li>
+          <li>Written in Java 1.8 with Netbeans' built-in GUI toolkit. </li>
+        </ul>
+      </div>
+
+      <h3 class="portfolio_headers">Things I'd like to do...</h3>
+
+      <ul>
+        <li>Create a calculator app for Vetarinary Medicine, letting the user
+        quickly perform routine calculations<br>(like figuring out liquid dilutions).
+        My fiancee, who is in her last year of vet-school at Cornell, asked<br>me to
+        do it :) </li>
+        <li>Create a simple game in Java, like snake. A) Becuase I loved to play
+        Snake on my old Nokia phone, and<br>B) becuase I think I'll learn a lot of
+        good coding techniques in the process.</li>
+      </ul>
+    </div>
+
+    <footer class="footer" style="position: relative; top: 1800px;">&#9178; | Ithaca, NY</footer>
+  </body>
+
+</html>
