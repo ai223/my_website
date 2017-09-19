@@ -9,17 +9,15 @@ body {
   width: 99.3%;
   height: 56%;
   top: 100px;
-  /*width: 1335px;
-  height: 200px;*/
 }
 
 .title_header{
   position:absolute;
   top: 420px;
-  height: 4em;
-  width: 42em;
-  padding-right: 19.3em;
-  padding-left: 22em;
+  height: 10%;
+  width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
   text-align: center;
   float: left;
   clear: left;
@@ -28,10 +26,10 @@ body {
 .title_header_2{
   position: absolute;
   top: 200px;
-  height: 4em;
-  width: 42em;
-  padding-right: 19.3em;
-  padding-left: 22em;
+  height: 10%;
+  width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
   text-align: center;
   float: left;
   clear: left;
@@ -39,13 +37,14 @@ body {
 
 .name{
   color: dimgray;
-  height: 32px;
+  height: 50%;
+  width: 100%;
   background: white;
   font-variant: small-caps;
   text-align: center;
   line-height: 0.2em;
   letter-spacing: 1.5px;
-  font-size: 2.8em;
+  font-size: 300%;
   clear: both;
   border-bottom: 1px solid lightgray;
 }
@@ -55,17 +54,11 @@ body {
   color: gray;
   background-color: white;
   opacity: 0.95;
-  top: 0px;
+  top: 0%;
   height: 10%;
-  width: 50%;
+  width: 99%;
   z-index: 1;
-  padding-left: 25%;
-  padding-right: 24%;
-  padding-bottom: 6em;
-  float: none;
-  clear: both;
-  text-align: center;
-  vertical-align: baseline;
+  padding-bottom: 5.5%;
   border-bottom: 1px solid purple;
 }
 
@@ -90,10 +83,10 @@ body {
   font-size: 110%;
   z-index: -1;
   top: 280px;
-  padding-left: 14em;
-  padding-right: 14em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   clear: both;
 }
 
@@ -122,12 +115,15 @@ a:active {
 }
 
 ul li{
-  padding-bottom: .3em;
+  padding-bottom: 2%;
 }
 
 nav{
-  padding-top: 6em;
+  width: 100%;
+  padding-top: 6%;
+  text-align: center;
   opacity: 1.0;
+
 }
 
 nav ul {
@@ -135,9 +131,9 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 20px;
-  padding-right: .2em;
-  padding-left: .2em;
+  font-size: 120%;
+  padding-right: 1%;
+  padding-left: 1%;
   display: inline-block;
 }
 
@@ -157,6 +153,10 @@ a.current {
   font-weight: bold;
 }
 
+code{
+  font-size: 110%;
+}
+
 .i{
   font-style: italic;
 }
@@ -169,6 +169,24 @@ a.current {
   padding-left: 20px;
 }
 
+.resume_header{
+  padding-top: 4%;
+}
+
+.code_snippet{
+  text-align: center;
+}
+
+.code_snipper_block{
+  text-align: left;
+  margin-left: 200px;
+  color: red;
+}
+
+.blog_titles{
+  font-size: 105%;
+}
+
 #hover_img {
   cursor: default;
   position: relative;
@@ -177,24 +195,24 @@ a.current {
 }
 
 #hover_img span {
-  position: relative;
-  left: -150%;
+  position: absolute;
+  top: 180%;
+  left: 160px;
+  top: -110px;
   display: none;
-  z-index: -99;
+  z-index: 99;
 }
 
 #hover_img:hover span{
   display: block;
   position: absolute;
-  right: -120px;
-  top: -90px;
 }
 
 
 #pdf_view{
   position: absolute;
-  top: 200px;
-  left: 1055px;
+  top: 500px;
+  left: 650px;
   padding-right: 3.5em;
   clear:both;
 }
@@ -278,8 +296,58 @@ a.current {
   height: 70%
 }
 
-.footer{
-  padding-bottom: 1.5em;
+#index_footer{
+  position: relative;
+  top: 905px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#resume_footer{
+  position: relative;
+  top: 2600px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#portfolio_footer{
+  position: relative;
+  top: 1680px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#tools_footer{
+  position: relative;
+  top: 110px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#blog_footer{
+  position: relative;
+  top: 2300px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#about_footer{
+  position: relative;
+  top: 2200px;
+  padding-bottom: 3em;
+  text-align: center;
+  clear: both;
+}
+
+#contact_footer{
+  position: relative;
+  top: 1250px;
+  padding-bottom: 3em;
   text-align: center;
   clear: both;
 }

@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
 
-  <link rel="stylesheet"
-        type="text/css"
-        href="../style/all.css"
-        media="all">
+    <link rel="stylesheet"
+          type="text/css"
+          href="../style/all.css"
+          media="all">
 
-  <!-- Source: https://fonts.google.com/ -->
-  <!-- License: Open Font License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web-->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
-        rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato"
-              rel="stylesheet">
+    <!-- Source: https://fonts.google.com/ -->
+    <!-- License: Open Font License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+                rel="stylesheet">
 
-  <link rel="icon"
-        type="image/png"
-        href="../images/logo.png">
-  <title>Code Musings</title>
-
+    <link rel="icon"
+          type="image/png"
+          href="../images/logo.png">
+    <title>Codewords</title>
+  </head>
     <div class=title_header_2>
-      <h1 class="name">Code Musings</h1>
+      <h1 class="name">Codewords</h1>
     </div>
     <div class="menu">
       <nav>
@@ -28,7 +29,8 @@
           <li><a href="../index.html">Home</a></li>
           <li><a href="resume.html">Résumé</a></li>
           <li><a href="portfolio.html">My Portfolio</a></li>
-          <li><a href="blog.html" class="current">Code Musings</a></li>
+          <li><a href="tools.html">My Toolkit</a></li>
+          <li><a href="blog.html" class="current">Codewords</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -39,11 +41,68 @@
     </div>
 
     <div class="main_content_2">
-      <p><strong>This is where I'll post some of my thoughts as I learn to create
+      <p class='i'><strong>This is where I'll post some of my thoughts as I learn to create
       websites in this class. It might be nice to have a record of it as the class
-      goes on...</strong></p>
-      <h4>03 September 2017</h4>
-      <p><em>An analogy...</em></p>
+      goes on...</strong></p><br><hr><br>
+
+      <p class='i'>17 September 2017</p>
+      <h4 class='blog_titles'>How to get an image to pop up on your webpage when hovering over text</h4>
+      <p>I noticed this cool trick on some webpages: when your mouse hovers over some
+      word, an image appears in the background out of nowhere. The effect is surprising
+      and fun. I wanted to quickly describe how to get this functionality using just
+      HTML and CSS, because it's not very difficult to pull off and the return is
+      pretty high. </p>
+      <p>Because we want to take advantage of CSS's hover effect, we'll start by
+        wrapping a portion of text with an anchor tag:</p>
+      <p class='code_snippet'><code>&lt;a href='#' id='hover'&gt;some text&lt;/a&gt;</code></p>
+      <p>This creates the desired link, so we can take advantage of its hover class.
+      (The <code>href='#'</code> just means the link doesn't refer to anything; "#" is just
+      a conventional symbol for null - you can use whatever you want.) The id will
+      allow us to referance this anchor later in CSS.</p>
+      <p>Now that we have our link, we want to associate an image with it. That means
+      we're going to want to add an image tag right inside of the anchor tags, just like
+      this:</p>
+      <p class='code_snippet'><code>&lt;a href='#' id='hover'&gt;some text&lt;div&gt;&lt;img src='filepath/image.jpg'
+      alt='image' /&gt;&lt;/div&gt;&lt;/a&gt;</code></p>
+      <p>It's a little ugly, but the main thing is that the anchor tag now incorporates
+      an image referance. The rest of the work can be done in CSS:</p>
+      <p><code class='code_snippet_block'>
+      #hover {<br>
+        &nbsp;cursor: default;<br>
+        &nbsp;position: relative;<br>
+      }<br>
+      <br>
+      #hover div {<br>
+        &nbsp;position: absolute;<br>
+        &nbsp;display: none;<br>
+        &nbsp;z-index: -99;<br>
+      }<br>
+      <br>
+      #hover:hover div{<br>
+        &nbsp;display: block;<br>
+        &nbsp;position: absolute;<br>
+      }</code></p>
+      <p>You want to create three separate CSS referances as I did above. The first
+      one identifies the anchor tags; note that making the position relative means
+      that the image will be positioned relative to the upper-left corner of the
+      inline anchor itself (i.e. the text contained inside the <code>&lt;a&gt;&lt;/a&gt;</code>
+      tags). Note also that I set the cursor attribute to "default." This means that
+      the mouse poiter won't change form when hovering over the text. It's not
+      a true link, and we don't want the pointer suggesting otherwise. </p>
+      <p> The second referance is for the div container inside our anchor: it's telling
+      the image to remain invisible (display: none) in its regular state (i.e. when
+      there's no hovering). The large negative z-index makes sure it'll appear behind
+      all other elements when it does show up.</p>
+      <p>Finally we add the hovering functionality. Setting the display attribute
+      "block" will have the image appear when we hover over the linked text. Use
+      absolute positioning to fine-tune the picture's final location, being aware
+      that it's still being moved relative to the block of text. Remember that you
+      can use negative values if you want to move the image to the left of the text,
+      and be careful -- if the linked text moves the image will move with it!
+    </p><br><hr><br>
+
+      <p class='i'>03 September 2017</p>
+      <h4 class='blog_titles'>An analogy...</h4>
       <p> I began working on my first ever website today, so far only in html. The
         technical aspects have been easy and fun. I really enjoy hunting down the
         little things that are simple but make a website feel more embodied, like
@@ -69,8 +128,10 @@
         spent with whatever you've made is pleasant and valuable. You'd be a jerk,
         wasting people's time, if you did any less.
       </p>
-    </div>
-    <footer class="footer" style="position: relative; top: 850px;">&#9178; | Ithaca, NY</footer>
+    </div> <!-- End main_content_2-->
+
+      <footer id="blog_footer">&#9178; | Ithaca, NY</footer>
+
   </body>
 
 </html>
